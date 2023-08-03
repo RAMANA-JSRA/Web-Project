@@ -1,0 +1,164 @@
+/* Ramana J S ramanajsra12@gmail.com style code*/
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: aquamarine;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  top: 0;
+}
+
+.Home {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  padding: 10px;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.one {
+  padding: 10px;
+  background-color: white;
+}
+.two1 {
+  margin: 30px;
+  direction: flex;
+  flex-wrap: wrap;
+}
+.two2 {
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
+}
+.Button {
+  margin-right: 10px;
+  direction: flex;
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border: solid black 2px;
+  justify-content: space-around;
+}
+img {
+  display: flex;
+  float: right;
+  margin: 0px;
+}
+.three {
+  background-color: white;
+}
+.three1 {
+  text-align: center;
+  background-color: white;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.box {
+  display: flex;
+  border: solid black 2px;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+}
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  position: relative;
+  padding-left: 100px;
+  font-size: larger;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+}
+img {
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+  right: 50px;
+  bottom: 50px;
+  border: solid white 5px;
+  margin: 10px;
+}
+img {
+  border-radius: 10px;
+  transition-duration: 2s;
+}
+img:hover {
+  transform: scale(1.1);
+}
+p1 {
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+  right: 50px;
+  bottom: 50px;
+  margin: 10px;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  left: 50px;
+  width: 300px;
+  position: relative;
+  padding-left: 100px;
+  font-size: larger;
+  margin: 0px;
+  padding: 20px;
+  align-items: center;
+}
+.Four {
+  background-color: white;
+}
+.Five {
+  display: flex;
+  align-items: center;
+}
+.three2 {
+  text-align: center;
+}
+
+input {
+  width: 60%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+}
+.three4 {
+  background-color: white;
+  text-align: center;
+}
+button {
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border: solid black 2px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
